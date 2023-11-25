@@ -1,6 +1,6 @@
+from typing import List
 import json
 import requests
-from typing import List
 
 MAIN_API = 'https://api.spotify.com/v1'
 

@@ -1,7 +1,7 @@
-import argparse
+from auth import generate_token, refresh_token, get_session
 from dotenv import load_dotenv
+import argparse
 import os
-from auth import generate_token, refresh_token, get_session, get_user_authorization
 from processor import get_track_ids
 from playlist_creation import get_user_profile, create_playlist, add_tracks_to_playlist
 
